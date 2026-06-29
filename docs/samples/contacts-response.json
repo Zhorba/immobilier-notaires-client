@@ -1,0 +1,10 @@
+{
+  "_comment": "Captured 2026-06-29 from GET /pub-services/inotr-www-annonces-contacts/v1/annonces/2022988/contacts . PII redacted. Note: no 'mail' field (use the detail endpoint for email).",
+  "id": 1455843,
+  "nom": "Prenom NOM",
+  "adresse4": " 2 rue Exemple",
+  "codePostal": "56500",
+  "ville": "Locmine",
+  "coordonneesW84": { "coordonneeX": -2.84145, "coordonneeY": 47.87994 },
+  "telephone": "0XXXXXXXXX"
+}

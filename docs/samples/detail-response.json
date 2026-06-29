@@ -1,0 +1,111 @@
+{
+  "_comment": "Captured 2026-06-29 from GET /pub-services/inotr-www-annonces/v1/annonces/2022988 . Photos trimmed to one; resolution URLs shortened; contact name/phone/email redacted. Illustrates structure, not exhaustive values.",
+  "id": 2022988,
+  "status": "LIGNE",
+  "typeTransaction": "VENTE",
+  "vente": {
+    "dateCreation": "2026-06-29T08:19:48Z",
+    "dateMaj": "2026-06-29T08:50:55Z",
+    "dateActivation": "2026-06-29T08:19:54Z",
+    "statut": "LIGNE",
+    "reference": "56076-1382",
+    "referencePartenaire": "R56076/1382",
+    "exclusivite": "NON",
+    "partenaire": 29,
+    "typeTransaction": "VENTE",
+    "crpcen": "56076",
+    "publiable": "OUI",
+    "redevableEmoluments": "ACQUEREUR",
+    "prix": 220000,
+    "emoluments": 10080,
+    "multimedias": [
+      {
+        "id": 48514980,
+        "checksum": "5688f873",
+        "photoPrincipale": "OUI",
+        "type": "image/jpeg",
+        "extension": "jpg",
+        "directory": "/29/56076/2022988",
+        "ratio": 1.3981,
+        "format": "QQVGA,QVGA,VGA,XGA",
+        "vga": { "url": "https://media.immobilier.notaires.fr/inotr/media/29/56076/2022988/5688f873_VGA.jpg" },
+        "urlHighestResolution": "https://media.immobilier.notaires.fr/inotr/media/29/56076/2022988/5688f873_XGA.jpg"
+      }
+    ],
+    "descriptions": [
+      {
+        "id": 1807273,
+        "langue": "fr",
+        "descCourte": "Plumelin maison de 2004 sur 756 m2",
+        "descLongue": "MAISON A VENDRE A PLUMELIN 56500 MORBIHAN - Construite en 2005 et parfaitement entretenue, cette maison contemporaine ... (full text)"
+      }
+    ],
+    "visite": {
+      "id": 1459671,
+      "typeVisite": "RDV",
+      "visiteContact": "0XXXXXXXXX",
+      "visiteNomContact": "Prenom NOM"
+    },
+    "viager": { "viager": "NON", "viagerPeriodiciteRente": "INCONNU" },
+    "bienVendu": "INCONNU",
+    "ventePrivee": "NON"
+  },
+  "bien": {
+    "id": 2251436,
+    "typeBien": "MAI",
+    "maison": {
+      "id": 2251436,
+      "localiteNom": "PLUMELIN",
+      "inseeCommune": "56174",
+      "communeNom": "Plumelin",
+      "codePostal": "56500",
+      "inseeDepartement": "56",
+      "departementNom": "Morbihan",
+      "regionNom": "Bretagne",
+      "coordonneesExactesW84": { "coordonneeX": -2.89623, "coordonneeY": 47.8706 },
+      "typeBien": "MAI",
+      "ancienNeuf": "ANCIEN",
+      "epoqueConstruction": "H",
+      "surfaceHabitable": 81.68,
+      "surfaceTerrain": 756,
+      "nbPieces": 5,
+      "nbChambres": 3,
+      "nbSdb": 1,
+      "exposition": "S",
+      "cuisine": "OUI",
+      "typeCuisine": "AMERICAINE",
+      "terrasse": "OUI",
+      "cave": "NON",
+      "piscine": "INCONNU",
+      "bordMer": "INCONNU",
+      "vueMer": "INCONNU",
+      "checkVueMer": "INCONNU",
+      "piedsDansEau": "INCONNU",
+      "belleVue": "INCONNU",
+      "pleineCampagne": "INCONNU",
+      "consommationClasse": "D",
+      "consommation": 194,
+      "emissionGesClasse": "B",
+      "emissionGes": 7,
+      "dateRealisationDpe": "2026-06-15",
+      "depensesEnergieMin": 1420,
+      "depensesEnergieMax": 1922,
+      "depensesEnergieAnnee": 2023,
+      "taxeFonciere": 909,
+      "checkCommerce": "OUI",
+      "commerce": "DIST300"
+    }
+  },
+  "contact": {
+    "id": 1455843,
+    "nom": "Prenom NOM",
+    "adresse4": " 2 rue Exemple",
+    "codePostal": "56500",
+    "ville": "Locmine",
+    "coordonneesW84": { "coordonneeX": -2.84145, "coordonneeY": 47.87994 },
+    "telephone": "0XXXXXXXXX",
+    "mail": "nego@example.notaires.fr"
+  },
+  "idOffice": 1843,
+  "crpcen": "56076"
+}
