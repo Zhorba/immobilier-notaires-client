@@ -123,16 +123,16 @@ Each milestone is shippable on its own. Tags follow semver (see §7).
 - [x] Tests: `test_params` (16), `test_models` (18), `test_pagination` (6),
       `test_contract` (12) — 52/52 passing, all offline against fixtures.
 
-### M2 — Developer experience & docs (→ `v0.2.0`)
-- [ ] `README` polish (badges, quickstart, disclaimer) — mostly done.
-- [ ] `CONTRIBUTING.md` — dev setup, **how to record/refresh a fixture**, style,
-      PR flow, commit conventions.
-- [ ] `CODE_OF_CONDUCT.md`, `CHANGELOG.md` (Keep a Changelog), `SECURITY.md`.
-- [ ] `examples/` — `search_by_department.py`, `export_csv.py`, `enrich_detail.py`.
-- [ ] CI (`.github/workflows/ci.yml`): ruff + mypy + pytest on Python 3.11 & 3.12.
-- [ ] `.pre-commit-config.yaml`; issue templates (`bug`, `feature`, `api_drift`) and
+### M2 — Developer experience & docs  ✅ (2026-06-29)
+- [x] `README` polish — badges (CI, Python version, MIT), install instructions.
+- [x] `CONTRIBUTING.md` — dev setup, fixture-recording workflow, PR flow,
+      commit conventions.
+- [x] `CODE_OF_CONDUCT.md`, `CHANGELOG.md` (Keep a Changelog), `SECURITY.md`.
+- [x] `examples/` — `search_by_department.py`, `export_csv.py`, `enrich_detail.py`.
+- [x] `scripts/record_fixtures.py` — automates live fetch + PII redaction.
+- [x] CI (`.github/workflows/ci.yml`): ruff + mypy + pytest on Python 3.11 & 3.12.
+- [x] `.pre-commit-config.yaml`; issue templates (`bug`, `feature`, `api_drift`) and
       `PULL_REQUEST_TEMPLATE.md`.
-- [ ] Label 3–5 **good first issues** (see §6).
 - **Done when:** a new contributor can clone, set up, run tests, and submit a PR
   guided only by repo docs; CI gates PRs.
 

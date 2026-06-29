@@ -10,18 +10,27 @@ property portal of the Notaires de France.
 > [docs/ethics.md](docs/ethics.md) before using it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/Zhorba/immobilier-notaires-client/actions/workflows/ci.yml/badge.svg)](https://github.com/Zhorba/immobilier-notaires-client/actions/workflows/ci.yml)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
 
 ## Status
 
-| Part | State |
-|------|-------|
-| **API documentation** | ✅ Available — see [`docs/`](docs/) |
-| Python client (`notaires_immo`) | 🚧 In progress |
-| PyPI release | ⏳ Planned |
+| Milestone | State |
+|-----------|-------|
+| M0 — API documentation & fixtures | ✅ Done |
+| M1 — Core client (52 tests) | ✅ Done |
+| M2 — CI, CONTRIBUTING, examples | ✅ Done |
+| M3 — PyPI release | ⏳ Planned |
+| M4 — Detail enrichment helpers | ⏳ Planned |
+| M5 — Async client | ⏳ Planned |
 
-The API is fully reverse-engineered and documented first; the client is built
-against that spec. If you only need to call the API yourself today, the docs below
-are enough to do it with `requests`/`httpx`.
+## Install
+
+```bash
+pip install git+https://github.com/Zhorba/immobilier-notaires-client.git
+```
+
+PyPI release coming soon (M3).
 
 ## Documentation
 
